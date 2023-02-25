@@ -1,0 +1,311 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: affirm
+  examples: |
+    - yes
+    - ya
+    - indeed
+    - of course
+    - correct
+    - /affirm
+
+- intent: deny
+  examples: |
+    - no
+
+- intent: bye
+  examples: |
+    - good afternoon
+    - take care
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - ok
+
+- intent: identity
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you
+    - are you AI chatbot
+
+- intent: search_dataset
+  examples: |
+    -[caterpillar](kcc_question) [acid lime](crop_type)
+    -[caterpillar](kcc_question) [bengal gram](crop_type)
+    -[caterpillar](kcc_question) [bitter groud](crop_type)
+    -[caterpillar](kcc_question) [brinjal](crop_type)
+    -[caterpillar](kcc_question) [capsicum](crop_type)
+    -[caterpillar](kcc_question) [cotton](crop_type)
+    -[caterpillar](kcc_question) [cauliflower](crop_type)
+    -[caterpillar](kcc_question) [chillies](crop_type)
+    -[caterpillar](kcc_question) [soybean](crop_type)
+    -[caterpillar](kcc_question) [marigold](crop_type)
+    -[caterpillar](kcc_question) [maize](crop_type)
+    -[caterpillar](kcc_question) [green gram](crop_type)
+    -[caterpillar](kcc_question) [onion](crop_type)
+    -[caterpillar](kcc_question) [paddy](crop_type)
+    -[caterpillar](kcc_question) [pigeonpea](crop_type)
+    -[caterpillar](kcc_question) [rose](crop_type)
+    -[caterpillar](kcc_question) [sorghum](crop_type)
+    -[fungal](kcc_question) [bengal gram](crop_type)
+    -[fungal](kcc_question) [brinjal](crop_type)
+    -[fungal](kcc_question) [cotton](crop_type)
+    -[fungal](kcc_question) [soybean](crop_type)
+    -[drenching](kcc_question) [bengal gram](crop_type)
+    -[drenching](kcc_question) [brinjal](crop_type)
+    -[drenching](kcc_question) [cabbage](crop_type)
+    -[drenching](kcc_question) [chillies](crop_type)
+    -[drenching](kcc_question) [fenugreek](crop_type)
+    -[drenching](kcc_question) [pigeonpea](crop_type)
+    -[drenching](kcc_question) [turmeric](crop_type)
+    -[red mites](kcc_question) [bhindi](crop_type)
+    -[red mites](kcc_question) [chillies](crop_type)
+    -[red mites](kcc_question) [cotton](crop_type)
+    -[white fly](kcc_question) [bhindi](crop_type)
+    -[white fly](kcc_question) [brinjal](crop_type)
+    -[white fly](kcc_question) [cabbage](crop_type)
+    -[white fly](kcc_question) [chillies](crop_type)
+    -[white fly](kcc_question) [cotton](crop_type)
+    -[white fly](kcc_question) [black gram](crop_type)
+    -[white fly](kcc_question) [green gram](crop_type)
+    -[white fly](kcc_question) [soybean](crop_type)
+    -[white fly](kcc_question) [ridge gourd](crop_type)
+    -[white fly](kcc_question) [capsicum](crop_type)
+    -[sucking pest](kcc_question) [bhindi](crop_type)
+    -[sucking pest](kcc_question) [brinjal](crop_type)
+    -[sucking pest](kcc_question) [chillies](crop_type)
+    -[sucking pest](kcc_question) [bitter gourd](crop_type)
+    -[sucking pest](kcc_question) [cotton](crop_type)
+    -[sucking pest](kcc_question) [cucumber](crop_type)
+    -[sucking pest](kcc_question) [green gram](crop_type)
+    -[sucking pest](kcc_question) [onion](crop_type)
+    -[sucking pest](kcc_question) [papaya](crop_type)
+    -[sucking pest](kcc_question) [ridge gourd](crop_type)
+    -[sucking pest](kcc_question) [soybean](crop_type)
+    -[sucking pest](kcc_question) [turmeric](crop_type)
+    -[sucking pest](kcc_question) [tomato](crop_type)
+    -[thrips](kcc_question) [cotton](crop_type)
+    -[thrips](kcc_question) [cucumber](crop_type)
+    -[thrips](kcc_question) [tomato](crop_type)
+    -[thrips](kcc_question) [turmeric](crop_type)
+    -[thrips](kcc_question) [wheat](crop_type)
+    -[thrips](kcc_question) [brinjal](crop_type)
+    -[thrips](kcc_question) [bitter groud](crop_type)
+    -[thrips](kcc_question) [chillies](crop_type)
+    -[blight](kcc_question) [cotton](crop_type)
+    -[blight](kcc_question) [bitter groud](crop_type)
+    -[blight](kcc_question) [brinjal](crop_type)
+    -[blight](kcc_question) [chillies](crop_type)
+    -[blight](kcc_question) [onion](crop_type)
+    -[blight](kcc_question) [pigeon peas](crop_type)
+    -[blight](kcc_question) [soybean](crop_type)
+    -[blight](kcc_question) [turmeric](crop_type)
+    -[blight](kcc_question) [tomato](crop_type)
+    -[blight](kcc_question) [wheat](crop_type)
+    -[aphid](kcc_question) [bitter groud](crop_type)
+    -[aphid](kcc_question) [black gram](crop_type)
+    -[aphid](kcc_question) [brinjal](crop_type)
+    -[aphid](kcc_question) [chillies](crop_type)
+    -[aphid](kcc_question) [cotton](crop_type)
+    -[aphid](kcc_question) [marigold](crop_type)
+    -[aphid](kcc_question) [mothbean](crop_type)
+    -[aphid](kcc_question) [pigeonpea](crop_type)
+    -[aphid](kcc_question) [tomato](crop_type)
+    -[leaf hoppers](kcc_question) [black gram](crop_type)
+    -[leaf hoppers](kcc_question) [chillies](crop_type)
+    -[leaf miner](kcc_question) [black gram](crop_type)
+    -[leaf miner](kcc_question) [marigold](crop_type)
+    -[leaf miner](kcc_question) [cucumber](crop_type)
+    -[leaf miner](kcc_question) [ridge groud](crop_type)
+    -[leaf miner](kcc_question) [soybean](crop_type)
+    -[fruit drop](kcc_question) [bottle gourd](crop_type)
+    -[fruit drop](kcc_question) [mango](crop_type)
+    -[fruit drop](kcc_question) [ridge gourd](crop_type)
+    -[shoot borer](kcc_question) [brinjal](crop_type)
+    -[shoot borer](kcc_question) [pigeonpea](crop_type)
+    -[shoot borer](kcc_question) [soybean](crop_type)
+    -[wilt](kcc_question) [brinjal](crop_type)
+    -[wilt](kcc_question) [chillies](crop_type)
+    -[wilt](kcc_question) [cotton](crop_type)
+    -[wilt](kcc_question) [cowpea](crop_type)
+    -[wilt](kcc_question) [drum stick](crop_type)
+    -[wilt](kcc_question) [mango](crop_type)
+    -[wilt](kcc_question) [onion](crop_type)
+    -[wilt](kcc_question) [pigeonpea](crop_type)
+    -[wilt](kcc_question) [soybean](crop_type)
+    -[leaf spot](kcc_question) [brinjal](crop_type)
+    -[leaf spot](kcc_question) [soybean](crop_type)
+    -[leaf spot](kcc_question) [sponge gourd](crop_type)
+    -[flower drop](kcc_question) [chillies](crop_type)
+    -[flower drop](kcc_question) [brinjal](crop_type)
+    -[flower drop](kcc_question) [tomato](crop_type)
+    -[flower drop](kcc_question) [mamgo](crop_type)
+    -[flower drop](kcc_question) [pigeonpea](crop_type)
+    -[white grub](kcc_question) [cabbage](crop_type)
+    -[white grub](kcc_question) [paddy](crop_type)
+    -[white grub](kcc_question) [onion](crop_type)
+    -[white grub](kcc_question) [chillies](crop_type)
+    -[white grub](kcc_question) [pigeonpea](crop_type)
+    -[white grub](kcc_question) [soybean](crop_type)
+    -[white grub](kcc_question) [sugarcanre](crop_type)
+    -[white grub](kcc_question) [turmeric](crop_type)
+    -[leaf curl](kcc_question) [chillies](crop_type)
+    -[leaf curl](kcc_question) [pigeon pea](crop_type)
+    -[leaf curl](kcc_question) [sponge groud](crop_type)
+    -[pink bollworm](kcc_question) [cotton](crop_type)
+    -[pod borer](kcc_question) [cotton](crop_type)
+    -[pod borer](kcc_question) [groundnut](crop_type)
+    -[pod borer](kcc_question) [pigeonpea](crop_type)
+    -[pod borer](kcc_question) [soybean](crop_type)
+    -[yellowing of leaves](kcc_question) [french bean](crop_type)
+    -[yellowing of leaves](kcc_question) [marigold](crop_type)
+    -[pod borer](kcc_question) [cotton](crop_type)
+    -[pod borer](kcc_question) [groundnut](crop_type)
+    -[pod borer](kcc_question) [pigeonpea](crop_type)
+    -[pod borer](kcc_question) [soybean](crop_type)
+    -[leaf minor](kcc_question) [ridge gourd](crop_type)
+    -[girdle beetle](kcc_question) [soybean](crop_type)
+    -[mealy bug](kcc_question) [soybean](crop_type)
+    -[mealy bug](kcc_question) [pigeonpea](crop_type)
+    -[rot](kcc_question) [turmeric](crop_type)
+    -[rot](kcc_question) [tomato](crop_type)
+    -[rot](kcc_question) [bitter groud](crop_type)
+    -[rot](kcc_question) [chillies](crop_type)
+
+
+- intent: datetime
+  examples: |
+    - what is date today
+    - what is time 
+    - tell me date and time
+    - what is today's date and time
+
+- intent: ask_weather_location
+  examples: |
+    -weather today [mumbai](location)
+    -weather today [delhi](location)
+    -weather today [bangalore](location)
+    -weather today [hyderabad](location)
+    -weather today [ahmedabad](location)
+    -weather today [chennai](location)
+    -weather today [kolkata](location)
+    -weather today [surat](location)
+    -weather today [pune](location)
+    -weather today [jaipur](location)
+    -weather today [lucknow](location)
+    -weather today [kanpur](location)
+    -weather today [nagpur](location)
+    -weather today [indore](location)
+    -weather today [thane](location)
+    -weather today [bhopal](location)
+    -weather today [visakhapatnam](location)
+    -weather today [pimpri and chinchwad](location)
+    -weather today [patna](location)
+    -weather today [vadodara](location)
+    -weather today [ghaziabad](location)
+    -weather today [ludhiana](location)
+    -weather today [agra](location)
+    -weather today [nashik](location)
+    -weather today [faridabad](location)
+    -weather today [meerut](location)
+    -weather today [rajkot](location)
+    -weather today [kalyan and dombivali](location)
+    -weather today [vasai virar](location)
+    -weather today [varanasi](location)
+    -weather today [srinagar](location)
+    -weather today [aurangabad](location)
+    -weather today [dhanbad](location)
+    -weather today [amritsar](location)
+    -weather today [navi mumbai](location)
+    -weather today [allahabad](location)
+    -weather today [haora](location)
+    -weather today [ranchi](location)
+    -weather today [gwalior](location)
+    -weather today [jabalpur](location)
+    -weather today [coimbatore](location)
+    -weather today [vijayawada](location)
+    -weather today [jodhpur](location)
+    -weather today [madurai](location)
+    -weather today [raipur](location)
+    -weather today [kota](location)
+    -weather today [chandigarh](location)
+    -weather today [guwahati](location)
+    -weather today [solapur](location)
+
+- intent: web_referance
+  examples: |
+    - I need information about [government schemes](weblink) for farmers
+    - Provide me details of [government schemes](weblink)
+    - what are the [government schemes](weblink) providing by government of india
+    - give me details information about [government schemes](weblink) for crop plantation and farming
+    - Give some information about [nutrient management](weblink)
+    - provide details on [nutrient management](weblink)
+    - need information about policy initiatives in [seed](weblink) sector
+    - what are the policies and schemes for [seed](weblink) in india
+    - help me about [seed](weblink) information 
+    - tell me about [market](weblink) rates of vegetables and fruits
+    - Provide me some [market](weblink) information of india 
+    - what is historic [market](weblink) trend 
+    - which disease do my [paddy](weblink) crop have
+    - how to cure the disease of [paddy](weblink) crop
+    - give me advice on curing disease of [paddy](weblink)
+    - which disease do my [cotton](weblink) crop have
+    - how to cure the disease of [cotton](weblink) crop
+    - give me advice on curing disease of [cotton](weblink)
+
+- intent: crop_fert
+  examples: |
+    - which fertilizer should use for [blackgram](crop_type)
+    - fertilizer for [bengalgram](crop_type)
+    - tell me which fertlizer good for [tomato](crop_type)
+    - fertilizer for [rice](crop_type)
+    - fertilizer for [chilli](crop_type)
+    - fertilizer for [cotton](crop_type)
+    - fertilizer for [soya](crop_type)
+    - fertilizer for [maize](crop_type)
+    - fertilizer for [groundnut](crop_type)
+    - fertilizer for [banana](crop_type)
+    - fertilizer for [citrus](crop_type)
+    - fertilizer for [coconut](crop_type)
+    - fertilizer for [redgram](crop_type)
+    - fertilizer for [bhendi](crop_type)
+    - fertilizer for [brinjal](crop_type)
+    - fertilizer for [sugarcane](crop_type)
+    - fertilizer for [mango](crop_type)
+    - fertilizer for [potato](crop_type)
+    - fertilizer for [sunflower](crop_type)
+
+- intent: other_queries
+  examples: |
+    - what crop to plant
+    - what fertilizer to use
+    - which disease do your crop have
+    - how to cure the disease
+
+
+
