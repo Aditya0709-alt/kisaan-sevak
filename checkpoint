@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/aditya/Downloads/Farmer-friendly-contextual-chatbot-master/model.tflearn"
+all_model_checkpoint_paths: "/Users/aditya/Downloads/Farmer-friendly-contextual-chatbot-master/model.tflearn"
