@@ -33,7 +33,7 @@ Kisan Call Center also known as KCC, is a toll free call center service being ru
 
 Link: https://dackkms.gov.in/account/login.aspx
 
-## What the Tool Looks Like
+## What the Tool Looks Like in Action
 
 <img width="1095" alt="Screenshot 2023-02-25 at 6 05 40 PM" src="https://user-images.githubusercontent.com/77115883/221358081-70f24f7b-82f3-44e8-90ab-9df4ed23a4f0.png">
 
