@@ -17,7 +17,7 @@
          "responses": ["DEEG 6-9 INCH DEEP `V` SHAPE PIT AND TACKING 500 GM SOIL SAMPLE FOR TESTING SOIL", "Dig out a wedge of soil about 6 to 8 inches deep, and set this wedge aside.. Now dig out a half-inch piece of soil from the hole and pour it into your bucket."]
         },
         {"tag": "Nutrient Management",
-         "patterns": ["TELL ME SOMETHING ABOUT NUTRIENT MANAGEMENT ?", "What are some ways to improve nutrients in soil","How to manage nutrients" ],
+         "patterns": ["TELL ME SOMETHING ABOUT NUTRIENT MANAGEMENT ?", "What are some ways to improve nutrients in soil","How to manage nutrients","Please refer the following website(https://www.epa.gov/agriculture/agriculture-nutrient-management-and-fertilizer)"],
          "responses": ["SPRAY OF ZINK SULPHATE 5 GRAM +UREA 10 GRAM PER LITER WATER", "SPRAY OF SOLUBLE NPK  18:18:18 GRADE 10 GM/LTR WATER", "SPRAY OF MULTIPLAX (MICRONUTRIENT) 4 ML PER LITER WATER"]
         },
         {"tag": "Plant Protection",
@@ -31,7 +31,7 @@
         },
         {"tag": "farm pond",
          "patterns": ["Farm pond" ],
-         "responses": ["SUBSIDY ON FARM POND = 50% OF TOTAL COST OR 75000/- MAXIMUM"],[""],
+         "responses": ["SUBSIDY ON FARM POND = 50% OF TOTAL COST OR 75000/- MAXIMUM"],
          "context_filter": "subsidyinfo"
         },
         {"tag": "solar plant",
@@ -40,9 +40,14 @@
          "context_filter": "subsidyinfo"
         },
         {"tag": "cotton",
-         "atterns": ["Give me some information about cotton"],
+         "patterns": ["Give me some information about cotton","I want to know about cotton"],
          "responses": ["Please Download Crop Darpan App developed by IIT Hydrabad faculty or go on following [website](https://www.cropdarpan.com/cropdarpan/farmer/welcome) .On this platform ,You will get information on which disease do your paddt/cotton crop have and advice on dignostic of your known disease"],
          "context_filter": "cottoninfo"
+        },
+        {"tag": "seeds",
+         "patterns": ["Give me some information about seeds","How do I procure seeds"],
+         "responses": ["Please refer the following website(https://seednet.gov.in/Material/IndianSeedSector.aspx)"],
+         "context_filter": "seedinfo"
         },
 		{"tag": "pipe line",
 		 "patterns": ["Pipe line"],
