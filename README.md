@@ -1,7 +1,33 @@
-#                                                 Kisaan-Sevak
+# Kisaan-Sevak
 
 ![plant-bot](https://user-images.githubusercontent.com/77115883/221355114-6e894fc9-f8f6-4074-bc44-4213682927e3.jpeg)
 
 *A one-stop solution for farmers to get their queries solved!!*
+
+# Table of Contents
+
+* [Introduction](#introduction)
+* [System Architecture](#system-architecture)
+* [Dataset](#dataset)
+* [Choosing the right model](#model)
+* [Conclusion](#conclusion)
+* [References](*references)
+
+## Introduction
+
+- Precision farming, also known as precision agriculture, is a farming management approach that uses technology and data to optimize crop yield, reduce waste and improve overall efficiency.
+- In precision farming, farmers use various technologies like GPS, remote sensing, drones, and sensors to collect data about their crops, soil, and weather conditions. 
+- This data is analyzed using various software tools to provide actionable insights that help farmers make informed decisions about crop management.
+- India has a large and growing population, which is expected to reach 1.7 billion by 2050. This means that there will be increasing demand for food, which will require farmers to produce more food while also facing constraints such as limited land, water and other resources. 
+- Precision farming can help farmers to optimize their use of resources and increase their productivity, which will be essential for meeting India's growing food demand.
+
+
+## System Architecture
+
+<img width="976" alt="Screenshot 2023-02-25 at 5 52 18 PM" src="https://user-images.githubusercontent.com/77115883/221356594-b4b5cab4-2230-48a5-b9ae-91e5e82578c3.png">
+
+
+
+
 
 
