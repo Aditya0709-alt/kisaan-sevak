@@ -27,6 +27,15 @@
 <img width="976" alt="Screenshot 2023-02-25 at 5 52 18 PM" src="https://user-images.githubusercontent.com/77115883/221356594-b4b5cab4-2230-48a5-b9ae-91e5e82578c3.png">
 
 
+## Dataset
+
+Kisan Call Center also known as KCC, is a toll free call center service being run by the government where farmers can call and ask their queries. Agriculture garduates and experts man these call centers. Spread across the country, on an average it receives about 500,000 calls per month or about 60-65 lakh calls per year making it very useful for any analysis. 
+
+Link: https://dackkms.gov.in/account/login.aspx
+
+
+
+
 
 
 
