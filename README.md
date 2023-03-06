@@ -4,6 +4,11 @@
 
 *A one-stop solution for farmers to get their queries solved!!*
 
+```
+Event: CoDefine 2023, Technovanza VJTI 
+Position: 1st
+```
+
 # Table of Contents
 
 * [Introduction](#introduction)
